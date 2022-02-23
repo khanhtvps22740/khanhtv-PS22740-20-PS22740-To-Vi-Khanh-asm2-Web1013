@@ -1,0 +1,151 @@
+body
+{
+    height: 100%;
+    width: 100%;
+}
+header
+{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+.box
+{
+    position: absolute;
+    background-color: white;
+    border: 2px solid orangered;
+    height: 40px;
+    width: 120px;
+    float: right;
+    border-radius: 15px;
+}
+.box:hover
+{
+    position: absolute;
+    background-color: pink;
+    height: 40px;
+    width: 120px;
+    float: right;
+    border-radius: 15px;
+}
+h3
+{
+    position: relative;
+    text-align: center;
+    top: -9px;
+}
+nav
+{
+    width: 85%;
+    height: 105px;
+    margin: 0 auto ;
+    text-align: center;
+    
+}
+.menu
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    background-color: red;
+    width: 100%;
+    height: 40px;
+}
+.pow
+{
+    position: absolute;
+    background-color: red;
+    float: left;
+    top: 109px;
+    height: 40px;
+}
+.pow:hover
+{
+    position: absolute;
+    background-color: white;
+    border: 1px solid w;
+    float: left;
+    height: 40px;
+}
+.menu>div:hover>.menucon
+{
+    display: block;
+}
+.menucon
+{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    border: 2px solid red;
+    box-shadow: 1px  red;
+    list-style: none;
+    width: 150px;
+    position: absolute ;
+    display: none;
+}
+.menucon>li
+{
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px dotted red;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 25px;
+    background: white;
+    color: red;
+
+}
+.acound
+{
+    height: 400px;
+    width: 500px;
+    position: relative;
+    background-color: rgb(235, 235, 187);
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.acound img
+{
+    width: 90%;
+    height: 50%;
+
+}
+.dangnhap
+{
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+input
+{
+    height: 25px;
+    width: 300px;
+}
+.dangky
+{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(231, 202, 231);
+    border: 2px solid black;
+    border-radius: 3px;
+}
+p
+{
+    height: 100%;
+    width: 100%;
+}
+.dangky:hover
+{
+    border: 2px solid red;
+    box-shadow: 3px red;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+h1
+{
+    margin: 0 auto;
+    text-align: center;
+}
