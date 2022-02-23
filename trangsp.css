@@ -1,0 +1,150 @@
+body
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(226, 219, 219);
+    margin: 0px;
+    position: relative;
+}
+header
+{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+nav
+{
+    width: 85%;
+    height: 105px;
+    margin: 0 auto ;
+    text-align: center;
+}
+article
+{
+    position: relative;
+    top: 0px;
+    background-color: rgb(226, 219, 219);
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+}
+footer
+{
+    background-color: gray;
+    width: 100%;
+    height: 40%;
+
+}
+.box
+{
+    position: absolute;
+    background-color: white;
+    border: 2px solid orangered;
+    height: 40px;
+    width: 120px;
+    float: right;
+    border-radius: 15px;
+}
+.box:hover
+{
+    position: absolute;
+    background-color: pink;
+    height: 40px;
+    width: 120px;
+    float: right;
+    border-radius: 15px;
+}
+h3
+{
+    position: relative;
+    text-align: center;
+    top: -9px;
+}
+.menu
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    background-color: red;
+    width: 100%;
+    height: 40px;
+}
+.pow
+{
+    position: absolute;
+    background-color: red;
+    float: left;
+    top: 100px;
+    height: 40px;
+}
+.pow:hover
+{
+    position: absolute;
+    background-color: white;
+    border: 1px solid w;
+    float: left;
+    height: 40px;
+}
+.menu>div:hover>.menucon
+{
+    display: block;
+}
+.menucon
+{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    border: 2px solid red;
+    box-shadow: 1px  red;
+    list-style: none;
+    width: 150px;
+    position: absolute ;
+    display: none;
+}
+.menucon>li
+{
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px dotted red;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 25px;
+    background: white;
+    color: red;
+
+}
+
+nav img
+{
+    position: relative;
+    border: 1px solid black;
+    width: 10%;
+    height: 80%;
+    top: 20px;
+}
+nav img:hover
+{
+    
+    transform: scale(1.2);
+}
+
+.menu h3
+{
+    position: relative;
+    top: -10px;
+}
+article img
+{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+article h3
+{
+    position: absolute;
+    top: 60px;
+    left: 500px;
+
+}
+
